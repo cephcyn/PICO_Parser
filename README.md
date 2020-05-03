@@ -22,7 +22,7 @@
 To run examples:  
 `python bluebert/run_bluebert_ner_predict.py.py --data_dir=test/txt --output_dir=test/json`  
 
-## Exmample  
+## Example  
 
 **Input** [`test/txt`](https://github.com/Tian312/PICO_Parser/tree/master/BERT_Parser/test/txt)  
 **Parsing results** [`test/json`](https://github.com/Tian312/PICO_Parser/tree/master/BERT_Parser/test/json) 
@@ -42,7 +42,7 @@ To run examples:
 2. Extract 3 files and put them under cluster/model  
 3. TO BE CONTINUED    
 
-## Exmample  
+## Example  
 **JSON**  
 **Input** `example.txt` contain over 70+ abstracts with methods sections  
 **Parsing results**  folder `example_json_out`  
