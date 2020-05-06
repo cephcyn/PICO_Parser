@@ -1,5 +1,7 @@
 # PICO_Parser
 
+Uses Python 3.6
+
 **Parse PubMed abstracts following PICO framework to standarize PICO elements.**  
 
 * Author: Tian Kang (tk2624@cumc.columbia.edu)  
