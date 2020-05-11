@@ -40,7 +40,7 @@ To run examples:
 
 
 #### Clustering parsed PICO elements to represent study design    
-1. Download context vector pretrained in all pubmed abstracts from 1990-2019 (downlaod link in [cluster/model/download.txt](https://github.com/Tian312/PICO_Parser/blob/master/cluster/model/download.txt))   
+1. Download context vector pretrained in all pubmed abstracts from 1990-2019 (download link in [cluster/model/download.txt](https://github.com/Tian312/PICO_Parser/blob/master/cluster/model/download.txt))   
 2. Extract 3 files and put them under cluster/model  
 3. TO BE CONTINUED    
 
@@ -75,7 +75,7 @@ To run examples:
         "entity_3": {
           "text": "dilated cardiomyopathy",
           "class": "Participant",
-          "nega    tion": 0,
+          "negation": 0,
           "UMLS": "C0007193:dilated cardiomyopathy,",
           "index": 3,
           "start": 17
@@ -90,7 +90,7 @@ To run examples:
         },
         "entity_5": {
           "text": "echocardiography",
-          "c    lass": "Participant",
+          "class": "Participant",
           "negation": 0,
           "UMLS": "C0013516:echocardiography,",
           "index": 5,
@@ -101,7 +101,7 @@ To run examples:
     },
     "sent_2": {
       "Section": "METHODS",
-      "text": "Standard radiographic variables were measured for each patient , and the cardiothoracic ( CT ) ratio , frontal cardiac area     , and volume were calculated .",
+      "text": "Standard radiographic variables were measured for each patient , and the cardiothoracic ( CT ) ratio , frontal cardiac area , and volume were calculated .",
       "entities": {
         "entity_6": {
           "text": "Standard radiographic variables",
@@ -132,7 +132,7 @@ To run examples:
           "class": "Outcome",
           "negation": 0,
           "UMLS": "",
-          "inde    x": 4,
+          "index": 4,
           "start": 22
         }
       },

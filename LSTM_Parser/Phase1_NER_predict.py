@@ -70,7 +70,7 @@ def main():
         except:
             except_out.write(line+"\n")
         # TIME prediction 
-        if count%100 ==0:
+        if count%100==0:
             new_time = time.time()
             cost = new_time-time2
             cost_m,cost_s=divmod(cost, 60)
