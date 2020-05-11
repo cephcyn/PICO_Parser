@@ -2,6 +2,9 @@ import os, re,  string
 import sys,codecs
 
 def get_umls_tagging(text,matcher):
+    if matcher is None:
+        return None
+
     info = matcher.match(text, best_match=True, ignore_syntax=False)
     taggings=[]
     if len(info) == 0:
